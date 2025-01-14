@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Folder Images Viewer",
+  "version": "1.0",
+  "description": "View all images from the parent directory as a gallery.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/",
+    "https://*/"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

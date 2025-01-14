@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      margin: 0;
+      width: 300px; /* Set the width of the popup */
+      height: auto; /* Allow auto-adjust height */
+      box-sizing: border-box;
+      overflow-y: auto; /* Add scroll if content overflows */
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .info {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #555;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <button id="load-gallery">Open Image Gallery</button>
+  <div class="info">
+    <strong>Hotkeys:</strong>
+    <ul>
+      <li><strong>⬅️ / ➡️:</strong> Navigate between images</li>
+      <li><strong>Shift + ⬅️ / ➡️:</strong> Jump 100 images</li>
+      <li><strong>Esc:</strong> Close the gallery</li>
+    </ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
