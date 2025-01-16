@@ -5,12 +5,7 @@
   "description": "View all images from the parent directory as a gallery.",
   "permissions": [
     "activeTab",
-    "scripting",
-    "tabs"
-  ],
-  "host_permissions": [
-    "http://*/",
-    "https://*/"
+    "scripting"
   ],
   "action": {
     "default_popup": "popup.html",

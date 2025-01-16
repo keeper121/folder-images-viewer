@@ -13,7 +13,6 @@ making it ideal for photographers, designers, and anyone working with visual ass
 ![viewer.gif](images/viewer.gif)
 
 🎹 Hotkey Support:
- - Shift + A: Open the image gallery.
  - ⬅️ / ➡️: Navigate between images.
  - Shift + S: Jump 100 images forward. 
  - Esc: Close the gallery.
